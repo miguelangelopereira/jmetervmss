@@ -89,7 +89,7 @@
       "osType": {
         "publisher": "Canonical",
         "offer": "UbuntuServer",
-        "sku": "16.04-LTS",
+        "sku": "18.04-LTS",
         "version": "latest"
       },
       "imageReference": "[variables('osType')]",
@@ -268,8 +268,7 @@
                     "autoUpgradeMinorVersion": true,
                     "settings": {
                       "fileUris": [
-                        "[uri(parameters('_artifactsLocation'), concat('installserver.sh', parameters('_artifactsLocationSasToken')))]",
-                        "[uri(parameters('_artifactsLocation'), concat('workserver.py', parameters('_artifactsLocationSasToken')))]"
+                        "[uri(parameters('_artifactsLocation'), concat('installserver.sh', parameters('_artifactsLocationSasToken')))]"
                       ],
                       "commandToExecute": "bash installserver.sh"
                     }
