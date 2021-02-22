@@ -1,3 +1,4 @@
 # jmetervmss
 
-[![Deploy to Azure Fully Configurable](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/miguelangelopereira/jmetervmss/main/jmeter-vmss.json) 
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)]
+(https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmiguelangelopereira%2Fjmetervmss%2Fmain%2Fjmeter-vmss.json) 
